@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=360, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/modal.css">
+
+</head>
+
+<body>
+	<header>
+		<h1>
+			<a href="index.html">Home</a>
+			<a href="shopping.html">Shopping</a>
+			<a href="personal.html">Personal</a>
+			<a href="orders.html">Orders</a>
+			<a href="about.html">About</a>
+		</h1>
+	</header>
+	<main>
+		<div class="cart-container">
+			<section class="section">
+				<h2 class="text-center">Products</h2>
+				<div class="products">
+					<!--
+					https://www.iconfinder.com/iconsets/beverage
+					Creative Commons (Attribution 3.0 Unported)
+					https://creativemarket.com/eucalyp
+				-->
+					<div class="product">
+						<img class="product__image" src="img/apple.jpg" alt="Apple">
+						<h2 class="product__name">Apple</h2>
+						<h3 class="product__price">6.00</h3>
+						<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+					</div>
+					<div class="product">
+						<img class="product__image" src="img/banana.jpg" alt="Banana">
+						<h2 class="product__name">Banana</h2>
+						<h3 class="product__price">5.00</h3>
+						<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+					</div>
+					<div class="product">
+						<img class="product__image" src="img/orange.jpg" alt="Orange">
+						<h2 class="product__name">Orange</h2>
+						<h3 class="product__price">4.00</h3>
+						<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+					</div>
+					<div class="product">
+						<img class="product__image" src="img/grape.jpg" alt="Grape">
+						<h2 class="product__name">Milk</h2>
+						<h3 class="product__price">2.50</h3>
+						<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+					</div>
+					<div class="product">
+						<img class="product__image" src="img/pineapple.jpg" alt="Pineapple">
+						<h2 class="product__name">Pineapple</h2>
+						<h3 class="product__price">1.00</h3>
+						<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+					</div>
+					<div class="product">
+						<img class="product__image" src="img/tomatto.jpg" alt="Tomato">
+						<h2 class="product__name">Tomato</h2>
+						<h3 class="product__price">6.00</h3>
+						<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+					</div>
+					<div class="product">
+						<img class="product__image" src="img/cucumber.jpg" alt="Cucumber">
+						<h2 class="product__name">Cucumber</h2>
+						<h3 class="product__price">6.00</h3>
+						<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+					</div>
+					<div class="product">
+						<img class="product__image" src="img/Lettuce.jpg" alt="Lettuce">
+						<h2 class="product__name">Lettuce</h2>
+						<h3 class="product__price">6.00</h3>
+						<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+					</div>
+					<div class="product">
+						<img class="product__image" src="img/bean.jpg" alt="Beans">
+						<h2 class="product__name">Beans</h2>
+						<h3 class="product__price">6.00</h3>
+						<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+					</div>
+					<div class="product">
+						<img class="product__image" src="img/pumpkin.jpg" alt="Pumpkin">
+						<h2 class="product__name">Pumpkin</h2>
+						<h3 class="product__price">6.00</h3>
+						<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+					</div>
+					<div class="product">
+						<img class="product__image" src="img/watermelon.jpg" alt="Watermelon">
+						<h2 class="product__name">Watermelon</h2>
+						<h3 class="product__price">6.00</h3>
+						<button class="btn btn--primary" data-action="ADD_TO_CART">Add To Cart</button>
+					</div>
+				</div>
+			</section>
+
+			<div id="modal" class="modal">
+				<div class="modal-content">
+					<span class="close">&times;</span>
+					<p>Payment Success 🎉🎉🎉</p>
+				</div>
+			</div>
+
+
+			<section class="section">
+				<h2 class="text-center">Cart</h2>
+				<div class="cart"></div>
+			</section>
+
+		</div>
+	</main>
+
+</body>
+
+<script src="js/modal.js"></script>
+<script src="js/cart.js"></script>
+
+</html>
